@@ -1,0 +1,17 @@
+.inputformat {
+    display: flex;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.inputformat:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputformat > div {
+    margin-left: 6px;
+}

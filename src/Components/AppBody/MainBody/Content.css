@@ -1,0 +1,46 @@
+.content {
+    flex: 0.52;
+    margin-right: 10px;
+}
+
+.content_container {
+    margin-top: 16px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 0.8px solid rgb(241, 241, 241);
+}
+
+.content_input {
+    color: gray;
+    display: flex;
+    padding: 10px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.content_input > form {
+    display: flex;
+    width: 100%;
+}
+
+.content_input > form > input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-weight: 500px;
+}
+
+.content_input > form > button {
+    display: none;
+}
+
+.content_inputformat {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top : 5px;
+}

@@ -1,0 +1,118 @@
+.sidebar{
+    flex: 0.23;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    margin-top: 10px;
+    position: sticky;
+    padding: 5px;
+}
+
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(204, 203, 203);
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sidebar_top > img {
+    margin-bottom: -40px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.sidebar_profile{
+    margin-bottom: 10px;
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.sidebar_stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;   
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar_stats:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:1px;
+    transition: 0.8s;
+    color: black !important;
+}
+
+.sidebar_stats:hover > div{
+    color: black !important;
+}
+
+.sidebar_numbers {
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom : 10px;
+}
+
+.sidebar_username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sidebar_userinfo{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sidebar_stats_heading {
+    color : gray;
+    font-size: 14px;
+}
+
+.sidebar_stats_value {
+    color: rgb(56, 56, 252);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar_bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.recent {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.recent_item {
+    color: rgb(133, 130, 130);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px;
+}
+
+.recent_item:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+}
