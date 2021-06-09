@@ -1,13 +1,21 @@
 import React from 'react';
 import './App.css';
 // import SearchIcon from '@material-ui/icons/Search';
-import Header from './Components/Header';
+import Header from './Components/Navigation/Header';
+import Sidebar from './Components/AppBody/LeftSidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
         {/* <h1>Yo Lets start building...</h1>  */}
         <Header />
+
+        <div className="app_body">
+          {/* Sidebar */}
+          <Sidebar />
+          {/* Content */}
+          {/* Widgets */}
+        </div>
     </div>
   );
 }
