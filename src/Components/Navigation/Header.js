@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderNav from './HeaderNav';
 // image
-import lcLogo from '../images/lcLogo.png';
+import lcLogo from '../../images/lcLogo.png';
 // css
 import './Header.css';
 // icons
