@@ -3,6 +3,7 @@ import './App.css';
 // import SearchIcon from '@material-ui/icons/Search';
 import Header from './Components/Navigation/Header';
 import Sidebar from './Components/AppBody/LeftSidebar/Sidebar';
+import Content from './Components/AppBody/MainBody/Content';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           {/* Sidebar */}
           <Sidebar />
           {/* Content */}
+          <Content />
           {/* Widgets */}
         </div>
     </div>

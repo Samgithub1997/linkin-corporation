@@ -40,4 +40,19 @@
     display: flex;
     justify-content: space-evenly;
     margin-right: 50px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.header_right_one {
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 0.8px solid #d8e2dc;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.header_right_two{
+    margin-right: 20px;
+    margin-left: 30px;
 }

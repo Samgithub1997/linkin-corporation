@@ -1,5 +1,5 @@
 .sidebar{
-    flex: 0.2;
+    flex: 0.23;
     border-radius: 10px;
     height: fit-content;
     text-align: center;
@@ -40,13 +40,19 @@
     justify-content: space-between;
     margin-top: 10px;   
     align-items: center;
+    cursor: pointer;
 }
 
 .sidebar_stats:hover{
     background-color: whitesmoke;
     border-radius: 10px;
-    padding:5px;
-    transition-duration: 1;
+    padding:1px;
+    transition: 0.8s;
+    color: black !important;
+}
+
+.sidebar_stats:hover > div{
+    color: black !important;
 }
 
 .sidebar_numbers {
@@ -106,4 +112,7 @@
 
 .recent_item:hover{
     background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
 }

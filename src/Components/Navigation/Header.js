@@ -11,6 +11,7 @@ import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessIcon from '@material-ui/icons/Business';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 
 function Header(props) {
     return (
@@ -23,12 +24,17 @@ function Header(props) {
                 </div>
             </div>
             <div className="header_right">
-                <HeaderNav icon = {HomeIcon} option="Home"/>
-                <HeaderNav icon = {SupervisorAccountIcon} option="My Network"/>
-                <HeaderNav icon = {BusinessIcon} option="Jobs"/>
-                <HeaderNav icon = {ChatIcon} option="Chat"/>
-                <HeaderNav icon = {NotificationsIcon} option="Notifications" />
-                <HeaderNav avatar = "http://quotivee.com/wp-content/uploads/2013/09/don-draper.jpeg" option="Me" />
+                <div className="header_right_one">
+                    <HeaderNav icon = {HomeIcon} option="Home"/>
+                    <HeaderNav icon = {SupervisorAccountIcon} option="My Network"/>
+                    <HeaderNav icon = {BusinessIcon} option="Jobs"/>
+                    <HeaderNav icon = {ChatIcon} option="Messaging"/>
+                    <HeaderNav icon = {NotificationsIcon} option="Notifications" />
+                    <HeaderNav avatar = "http://quotivee.com/wp-content/uploads/2013/09/don-draper.jpeg" option="Me" />
+                </div>
+                <div className="header_right_two">
+                    <HeaderNav icon = {LibraryBooksIcon} option="Learnings" />
+                </div>
             </div>
         </div>
     )
