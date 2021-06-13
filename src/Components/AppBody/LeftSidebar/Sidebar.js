@@ -35,7 +35,7 @@ function Sidebar() {
             <div className="sidebar_bottom">
                 <div className="recent">Recent</div>
                 <br></br>
-                { recentItem.map((item) => <div className="recent_item">{item}</div>) }
+                { recentItem.map((item, id) => <div className="recent_item" key={id}>{item}</div>) }
             </div>
             
         </div>

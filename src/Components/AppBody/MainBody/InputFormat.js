@@ -1,3 +1,4 @@
+// Input buttons
 import React from 'react';
 import './InputFormat.css';
 

@@ -1,11 +1,12 @@
 .sidebar{
-    flex: 0.23;
+    flex: 0.22;
     border-radius: 10px;
     height: fit-content;
     text-align: center;
     margin-top: 10px;
     position: sticky;
     padding: 5px;
+    margin-left: 20px;
 }
 
 .sidebar_top{
